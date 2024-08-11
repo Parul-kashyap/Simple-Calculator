@@ -1,0 +1,157 @@
+body{
+  background-image: url("backGround.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.heading{
+  text-align: center;
+  color: #dfdfdf;
+  /* background: linear-gradient(#c32223, purple ); */
+}
+
+.calcuDiv{
+  height: 500px;
+  width: 850px;
+  background: linear-gradient(#80a3d5,#ff8080);
+  /* background: linear-gradient(blue,red); */
+  margin: 0 auto;
+  border-radius: 7px;
+  box-shadow: 4px 4px 4px 0;
+}
+
+.text{
+  background-color: #242424;
+  height: 5rem;
+  width: 90%;
+  border-radius: 2px;
+  margin: 2rem 2.3rem ;
+  font-family: cursive;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* .text{
+  position: absolute;
+  right:19px;
+  top: 5px;
+
+
+} */
+
+.numbers{
+  height: 19rem;
+  width: 27.1rem;
+  background-color: #242424;
+  position: absolute;
+  bottom: 4rem;
+  left: 17.6rem;
+  border-radius: 5px;
+}
+
+
+.digit{
+  background-color: #bfbfbf;
+  height: 4rem;
+  width: 8rem;
+  margin: 9px 4px 1px;
+  font-size: 3rem;
+  font-family: cursive;
+  box-shadow: 0.5px 2px 0 #555555;
+}
+
+.digit:hover{
+  background-color: #dfdfdf;
+}
+.digit:active{
+  background-color: white;
+  transform: translateY(2px);
+}
+
+#zero{
+  width: 16.8rem;
+  margin-left: 13px;
+}
+#one{
+  margin-left: 13px;
+}
+#four{
+  margin-left: 13px;
+}
+#seven{
+  margin-left: 13px;
+}
+
+
+.Padding0{
+  /* position: absolute; */
+  text-align: center;
+}
+
+
+.function{
+  background-color: #242424;
+  height: 19rem;
+  width: 9rem;
+  position: absolute;
+  right: 17.5rem;
+  bottom: 4rem;
+  border-radius: 5px;
+
+}
+
+.operation{
+  height: 4rem;
+  width: 8rem;
+  font-size: 3rem;
+  font-family: cursive;
+  margin: 10px 8px 0;
+}
+
+.clear-equal{
+  height: 19rem;
+  width: 9rem;
+  position: absolute;
+  right: 26.2rem;
+}
+.erase{
+  background-color: grey;
+  height: 4rem;
+  width: 7rem;
+  font-size: 2rem;
+  margin: 10px 8px 0;
+  box-shadow: 1px 2px 0 #5b5b5b;
+}
+
+.erase:hover{
+  background-color: #9f9f9f;
+}
+
+.erase:active{
+  background-color: #d5d5d5;
+  transform: translateY(2px);
+}
+
+.clear{
+  background-color:#db0000;
+}
+.clear:hover{
+  background-color: #ef0000;
+}
+.clear:active{
+  background-color: #ff1300;
+}
+.equal{
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: green;
+}
+.equal:hover{
+  background-color: #1c9300 ;
+}
+.equal:active{
+  background-color: #39c100;
+}
